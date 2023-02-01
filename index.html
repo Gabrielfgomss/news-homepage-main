@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="reset.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | News homepage</title>
 </head>
+
 <body>
   <header class="menu__header container">
     <img src="/assets/images/logo.svg" alt="Logo" class="menu-log">
     <img src="/assets/images/icon-menu.svg" alt="Menu" class="menu-icon">
-    <div class="menu-desktop menu-mobile" id="opencloseMenu">
-      <p class="menu-options">Home</p>
-      <p class="menu-options">New</p>
-      <p class="menu-options">Popular</p>
-      <p class="menu-options">Trending</p>
-      <p class="menu-options">Categories</p>
-    </div>
+    <ul class="menu-desktop menu-mobile" id="opencloseMenu">
+      <li>Home</li>
+      <li>New</li>
+      <li>Popular</li>
+      <li>Trending</li>
+      <li>Categories</li>
+    </ul>
   </header>
   <main class="main__content container">
     <article class="headline">
       <div class="headline-image-mobile headline-image-desktop"></div>
       <h1 class="headline-title">The Bright Future of Web 3.0?</h1>
-      <p class="headline-content">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+      <p class="headline-content">We dive into the next evolution of the web that claims to put the power of the
+        platforms back into the hands of the people. But is it really fulfilling its promise?</p>
       <button class="button-read">Read more</button>
     </article>
     <article class="recent__news">
@@ -71,4 +76,5 @@
     </article>
   </main>
 </body>
+
 </html>
