@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | News homepage</title>
+</head>
+<body>
+  <header class="menu__header container">
+    <img src="/assets/images/logo.svg" alt="Logo" class="menu-log">
+    <img src="/assets/images/icon-menu.svg" alt="Menu" class="menu-icon">
+    <div class="menu-desktop menu-mobile" id="opencloseMenu">
+      <p class="menu-options">Home</p>
+      <p class="menu-options">New</p>
+      <p class="menu-options">Popular</p>
+      <p class="menu-options">Trending</p>
+      <p class="menu-options">Categories</p>
+    </div>
+  </header>
+  <main class="main__content container">
+    <article class="headline">
+      <div class="headline-image-mobile headline-image-desktop"></div>
+      <h1 class="headline-title">The Bright Future of Web 3.0?</h1>
+      <p class="headline-content">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+      <button class="button-read">Read more</button>
+    </article>
+    <article class="recent__news">
+      <h2 class="title-index">New</h2>
+      <ul class="newslist">
+        <li class="news-title">Hydrogen VS Electric Cars</li>
+        <li class="news-text">Will hydrogen-fueled cars ever catch up to EVs?</li>
+      </ul>
+      <ul class="newslist">
+        <li class="news-title">The Downsides of AI Artistry</li>
+        <li class="news-text">What are the possible adverse effects of on-demand AI image generation?</li>
+      </ul>
+      <ul class="newslist">
+        <li class="news-title">Is VC Funding Drying Up?</li>
+        <li class="news-text">Private funding by VC firms is down 50% YOY. We take a look at What that means.</li>
+      </ul>
+    </article>
+    <article class="trending__news">
+      <div class="newlist-trend">
+        <img src="assets/images/image-retro-pcs.jpg" alt="" class="news-icon">
+        <ul class="info-news">
+          <li class="position">01</li>
+          <li class="title">Reviving Retro PCs</li>
+          <li class="news-content">What happens when old PCs are given modern upgrades?</li>
+        </ul>
+      </div>
+      <div class="newlist-trend">
+        <img src="assets/images/image-top-laptops.jpg" alt="" class="news-icon">
+        <ul class="info-news">
+          <li class="position">02</li>
+          <li class="title">Top 10 Laptops of 2022</li>
+          <li class="news-content">Our best picks for various needs and budgets.</li>
+        </ul>
+      </div>
+      <div class="newlist-trend">
+        <img src="assets/images/image-gaming-growth.jpg" alt="" class="news-icon">
+        <ul class="info-news">
+          <li class="position">03</li>
+          <li class="title">The Growth of Gaming</li>
+          <li class="news-content">How the pandemic has sparked fresh opportunities.</li>
+        </ul>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
